@@ -148,5 +148,6 @@ for target in package.targets {
     .enableUpcomingFeature("InternalImportsByDefault"),
     .enableUpcomingFeature("MemberImportVisibility"),
     .enableUpcomingFeature("NonisolatedNonsendingByDefault"),
+    .define("EXCLUDE_EXPORTS"),
   ])
 }
