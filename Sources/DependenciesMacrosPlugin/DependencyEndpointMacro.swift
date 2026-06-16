@@ -121,7 +121,7 @@ public enum DependencyEndpointMacro: AccessorMacro, PeerMacro {
     }
     unimplementedDefault.statements.insert(
       #"""
-      DependenciesMacros._reportIssue("Unimplemented: '\(Self.self).\#(raw: unescapedIdentifier)'")
+      Dependencies._reportIssue("Unimplemented: '\(Self.self).\#(raw: unescapedIdentifier)'")
       """#,
       at: unimplementedDefault.statements.startIndex
     )

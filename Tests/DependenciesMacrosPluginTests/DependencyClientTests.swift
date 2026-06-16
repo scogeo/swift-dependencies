@@ -1,4 +1,5 @@
 #if canImport(ObjectiveC)
+  import Dependencies
   import DependenciesMacros
   import IssueReporting
   import XCTest
